@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Travel Agent | Isekai Wibu</title>
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <navbar>
+        <div class="container">
+          <div class="logo">
+            <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png" style="margin-left: 50px; margin-right: 50px;" width="40px" height="40px">
+          </div>
+          <div class="menu">
+            <a href="#contact">Call Us</a>
+            <a href="#packages">Package</a>
+            <a href="#hero">Home</a>
+          </div>
+        </div>
+      </navbar>
+    </header>
+    <!--content-->
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="hero-title">
+            <h1 class="hero-open">Your Trusted Travel Agents</h1>
+            <br>
+            <h6 class="hero-intro">Your Happiness is our hapiness</h6>
+          </div>
+        </div>
+      </section>
+      <section id="about-contact">
+        <div class="container">
+          <div class="about">
+            <div class="banner">
+              <img class="mySlides animate-fading" src="https://placekitten.com/500/300" alt="" style="width:100%" />
+              <img class="mySlides animate-fading" src="https://cdn.shopify.com/s/files/1/0376/3161/articles/unnamed_0f4d66f6-2064-4cf7-8544-dbbc04932c91.jpg?v=1585957644" alt="" style="width:100%" />
+              <img class="mySlides animate-fading" src="http://redwhaledc.com/thumbs/about/komodo-national-park/padar2-500x300.jpg" alt="" style="width:100%" />
+            </div>
+            <br>
+            <div class="about-content">
+              <div class="content-caption">
+                <p>"Liburan jadi menyenangkan bersama RevoU Travels."</p>
+              </div>
+              <br>
+              <div class="content-person">
+                <img src="https://placekitten.com/50/50" alt="" style="border-radius: 50%;" />
+                <div class="person-info">
+                  <h6 class="person-title">Fredy Liestianto</h6>
+                  <p class="person-detail">CEO, 20</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <hr />
+            <br>
+            <div class="about-information">
+              <h6 class="information-title">Mengapa menggunakan RevoU Travels ?</h6>
+              <br>
+              <ul class="information-list">
+                <li class="parents-list">
+                  <div class="list-number">①</div>
+                  <div class="list-paragraph">Bebas transaksi di mana saja dan kapan saja, mulai dari desktop atau situs web mobile.</div>
+                </li>
+                <br>
+                <li class="parents-list">
+                  <div class="list-number">②</div>
+                  <div class="list-paragraph">Pembayaran jadi semakin fleksibel dengan berbagi pilihan, mulai dari ATM, Transfer Bank, Kartu Kredit, Bayar Tunai di Konter, hingga Internet Banking. </div>
+                </li>
+                <br>
+                <li class="parents-list">
+                  <div class="list-number">③</div>
+                  <div class="list-paragraph">Sebagai salah satu agen travel online terkemuka di dunia, RevoU Travels hadir untuk membantu Anda merencanakan perjalanan yang sempurna. Ingin berlibur, melakukan perjalanan bisnis, atau membuat akun perjalanan korporat? RevoU Travels siap membantu Anda.</div>
+                </li>
+              </ul>
+            </div>
+            <br>
+            <br>
+          </div>
+          <div class="container">
+            <div class="contact" id="contact">
+              <div class="contact-title">
+                <h1 class="contact-open">Contact Us </h3>
+                  <br>
+                  <p class="contact-intro">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+              </div>
+              <br>
+              <br>
+              <form name="myForm" onsubmit="return !!(validateForm() & validateEmail() & validateOption())" method="post">
+                <label for="name">Your Name:</label>
+                <br>
+                <br>
+                <input type="text" id="name" name="name" style="width: 293px;">
+                <br>
+                <br>
+                <label for="email">Email Adress:</label>
+                <br>
+                <br>
+                <input type="email" id="email" name="email" style="width: 293px;">
+                <br>
+                <br>
+                <label for="package">What are you interested in?</label>
+                <br>
+                <br>
+                <select id="packaging" name="packaging" style="width: 300px;">
+                  <option disabled selected value>Select Option</option>
+                  <option value="bali">Bali</option>
+                  <option value="japan">Japan</option>
+                  <option value="singapore">Singaporea</option>
+                  <option value="bandung">Bandung</option>
+                  <option value="surabaya">Surabaya</option>
+                  <option value="third-feature">Paket Terbaik</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="SEND" class="submit-form">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section id="hero">
+        <div class="container">
+          <div class="packages-title">
+            <h1>Our Package</h1>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section id="packages">
+        <div class="container">
+          <ul class="packages-main">
+            <li class="parents-packages">
+              <div class="packages-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="30px">
+              </div>
+              <div class="packages-detail">
+                <h3 class="packages-titlelist">Bali</h3>
+                <br>
+                <p class="packages-paragraph">Travel dan wisata di Bali. <br>kunjungi cagar budaya dan kuliner yang menarik </p>
+              </div>
+            </li>
+            <li class="parents-packages">
+              <div class="packages-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="30px">
+              </div>
+              <div class="packages-detail">
+                <h3 class="packages-titlelist">Japan</h3>
+                <br>
+                <p class="packages-paragraph">Travel dan wisata di Japan. <br>kunjungi cagar budaya dan kuliner yang menarik </p>
+              </div>
+            </li>
+            <li class="parents-packages">
+              <div class="packages-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="30px">
+              </div>
+              <div class="packages-detail">
+                <h3 class="packages-titlelist">Singapore</h3>
+                <br>
+                <p class="packages-paragraph">Travel dan wisata di Singapore. <br>kunjungi cagar budaya dan kuliner yang menarik </p>
+              </div>
+            </li>
+            <li class="parents-packages">
+              <div class="packages-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="30px">
+              </div>
+              <div class="packages-detail">
+                <h3 class="packages-titlelist">Bandung</h3>
+                <br>
+                <p class="packages-paragraph">Travel dan wisata di Bandung. <br>kunjungi cagar budaya dan kuliner yang menarik </p>
+              </div>
+            </li>
+            <li class="parents-packages">
+              <div class="packages-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" width="30px">
+              </div>
+              <div class="packages-detail">
+                <h3 class="packages-titlelist">Surabaya</h3>
+                <br>
+                <p class="packages-paragraph">Travel dan wisata di Surabaya. <br>kunjungi cagar budaya dan kuliner yang menarik </p>
+              </div>
+            </li>
+            <li class="parents-packages">
+              <div class="packages-logo">
+                <img src="https://bluestar.host/wp-content/uploads/2020/02/Blue-Star.png.webp" width="30px">
+              </div>
+              <div class="packages-detail">
+                <h3 class="packages-titlelist">Korea (Best Seller)</h3>
+                <br>
+                <p class="packages-paragraph">Travel dan wisata di Korea. <br>kunjungi cagar budaya dan kuliner yang menarik </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <br>
+      <section id="closing">
+        <div class="container">
+          <div class="closing-content">
+            <h1 class="closing-title">Bersama RevoU Travels !</h1>
+            <br>
+            <br>
+            <h6 class="closing-detail">Perjalanan Anda Dimulai Dari Sini</h6>
+            <br>
+            <br>
+            <a href="#contact" style="text-align: center;">
+              <input type="button" value="CALL TO ACTION" class="submit-form">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer>
+      <div id="container">
+        <div class="kaki">
+          <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png" style="margin-left: 50px; margin-right: 50px;" width="40px" height="40px">
+          <br>
+          <br>
+          <p style="font-family: 'Noto Sans'; color: #808ca4;">Terms of Service Privacy Policy</p>
+          <p style="font-family: 'Noto Sans'; color: #808ca4;">©2019 Moqups</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {
+        myIndex = 1
+      }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 4500);
+    }
+  </script>
+  <script>
+    function validateForm() {
+      let x = document.forms["myForm"]["name"].value;
+      if (x == "") {
+        alert("Nama belum terisi !");
+        return false;
+      }
+    }
+  </script>
+  <script>
+    function validateEmail() {
+      var rs = document.forms["myForm"]["email"].value;
+      var atps = rs.indexOf("@");
+      var dots = rs.lastIndexOf(".");
+      if (atps < 1 || dots < atps + 2 || dots + 2 >= rs.length) {
+        alert("Alamat email tidak valid !");
+        return false;
+      }
+    }
+  </script>
+  <script>
+    function validateOption() {
+      var package = document.getElementById("packaging");
+      if (package.value == "") {
+        //If the "Please Select" option is selected display error.
+        alert("Anda belum memilih packagenya !");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</html>

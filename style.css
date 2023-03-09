@@ -1,0 +1,275 @@
+hr {
+    width: 100px;
+    height: 5px;
+    background-color: #f0f4f4;
+    border: none;
+  }
+  
+  .logo {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  .menu {
+    float: left;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .menu a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #0088cc;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .hero-title {
+    font-size: large;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-grow: 1;
+    border-top: 2px solid #f0f4f4;
+  }
+  
+  .hero-title {
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  
+  .hero-open {
+    font-size: 36px;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+  
+  .hero-intro {
+    font-size: 24px;
+    font-family: "Noto Sans";
+    color: #808ca4;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+  }
+  
+  .banner {
+    margin-left: 50px;
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  
+  .animate-fading {
+    animation: fading 5s infinite;
+  }
+  @keyframes fading {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .about-content {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .content-person {
+    display: flex;
+  }
+  
+  .content-caption {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    color: #808ca4;
+  }
+  
+  .person-info {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  
+  .person-title {
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .person-detail {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    font-style: italic;
+    color: #808ca4;
+  }
+  .about-information {
+    width: 500px;
+    margin-left: 50px;
+    color: #808ca4;
+  }
+  
+  .information-title {
+    color: black;
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .parents-list {
+    width: 400px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    text-align: left;
+  }
+  
+  .list-number {
+    font-family: "Noto Sans";
+    font-size: 35px;
+  }
+  
+  .list-paragraph {
+    font-family: "Noto Sans";
+    font-size: 15px;
+  }
+  .contact {
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #f0f4f4;
+  }
+  
+  .contact-open {
+    font-weight: bold;
+    font-family: "Noto Sans";
+    font-size: 26px;
+  }
+  
+  .contact-intro {
+    font-family: "Noto Sans";
+    font-size: 15px;
+  }
+  
+  .submit-form {
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    font-family: "Noto Sans";
+    font-size: 15px;
+    background-color: #30343c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .packages-title {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f0f4f4;
+    flex-grow: 1;
+    font-size: 36px;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+  .packages-main {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 2px;
+  }
+  
+  .parents-packages {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 150px;
+    text-align: left;
+    gap: 20px;
+  }
+  
+  .packages-detail {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  
+  .packages-titlelist {
+    font-weight: bold;
+    font-family: "Noto Sans";
+    font-size: 26px;
+  }
+  
+  .packages-paragraph {
+    font-family: "Noto Sans";
+    font-size: 18px;
+  }
+  
+  .closing-content {
+    font-size: large;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-grow: 1;
+    border-top: 2px solid #f0f4f4;
+    border-bottom: 2px solid #f0f4f4;
+  }
+  
+  .closing-title {
+    font-size: 36px;
+    font-family: "Noto Sans";
+    font-weight: bold;
+  }
+  
+  .closing-detail {
+    font-size: 24px;
+    font-family: "Noto Sans";
+    color: #808ca4;
+  }
+  footer {
+    text-align: center;
+  }
+  
+  .kaki {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
